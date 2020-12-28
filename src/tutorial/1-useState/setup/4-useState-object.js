@@ -8,7 +8,7 @@ const UseStateObject = () => {
   //   message: 'random mesage',
   // })
 
-  //Define each attribute as independent const and refere by them name instead of person.xxx
+  //Define each attribute as independent const and refere by them name  instead of person.xxx
   const [name, setName] = useState('vijay')
   const [age, setAge] = useState(24)
   const [message, setMessage] = useState('Random Message')
